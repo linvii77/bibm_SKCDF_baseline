@@ -1,0 +1,24 @@
+# Data (not in repo)
+ECCV/
+logs/
+slurm_logs/
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+
+# Secrets / local deploy
+.env
+*_pass*
+tmp_sync/
+
+# Large files tracked by Git LFS instead
+# checkpoints/**/*.pth
+
+# IDE
+.idea/
+.vscode/
+.cursor/
+
+# Old local copies
+logs/synapse_20p_skcdf_fold1_evaluation_*.txt
